@@ -1,0 +1,50 @@
+@media screen and (min-height: 992px ){
+	.navImage{
+		min-height: 50vmax;
+	}
+
+	.profile{
+		top:10vh;
+	}
+
+	.profileInformation{
+		margin-top: 8vmax;
+	}
+
+	.description{
+		top:10vh;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px){
+	.profileInformation{
+		margin-top: 3vh;
+		margin-bottom: 1vh;
+	}
+} 
+
+@media screen and (max-width: 600px){
+	.profileInformation{
+		margin-top: 3vh;
+	}
+
+	.description h4{
+		font-size:1.8em;
+	}
+
+	.description h5{
+		font-size:1.3em;
+	}
+
+	.description p{
+		font-size:1.1em;
+	}
+
+	.description a{
+		font-size:0.9em;
+	}
+
+	body{
+		font-size: 1em;
+	}
+}
