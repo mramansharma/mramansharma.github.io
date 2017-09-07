@@ -15,7 +15,6 @@ body{
 	font-weight: 300;
 	background-color: #efefef;
 	margin: 0;
-	padding: 0;
 }
 
 .navImage{
@@ -123,13 +122,13 @@ body{
 	color: #ffffff;
 }
 
-.interestSection{
-	margin-bottom: 2%;
-}
-
 .interest{
 	padding: 2%;
 	color: #f9a825;
+}
+
+.interestSection{
+	margin-bottom: 2%;
 }
 
 .animateUp {visibility:hidden;}
@@ -138,8 +137,8 @@ body{
     animation-name: slide;
     -webkit-animation-name: slide; 
     /* animation duration */
-    animation-duration: 1.1s; 
-    -webkit-animation-duration: 1.1s;
+    animation-duration: 1.0s; 
+    -webkit-animation-duration: 1.0s;
     /* Make the element visible */
     visibility: visible; 
 }
