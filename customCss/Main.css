@@ -15,6 +15,7 @@ body{
 	font-weight: 300;
 	background-color: #efefef;
 	margin: 0;
+	padding: 0;
 }
 
 .navImage{
@@ -122,13 +123,13 @@ body{
 	color: #ffffff;
 }
 
+.interestSection{
+	margin-bottom: 2%;
+}
+
 .interest{
 	padding: 2%;
 	color: #f9a825;
-}
-
-.interestSection{
-	margin-bottom: 2%;
 }
 
 .animateUp {visibility:hidden;}
